@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfSmarty3Plugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Symfony view plugin depending on the Smarty3 templating engine.</summary>
+ <description>Symfony view plugin depending on the Smarty3 templating engine.</description>
+ <lead>
+  <name>Johannes Heinen</name>
+  <user>joshiausdemwald</user>
+  <email>johannes.heinen@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-05-13</date>
+ <time>15:38:20</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+This is the first stable release of sfSmarty3Plugin
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="c4c215efb90f427c985c510b318ff3c0" name="lib/sfSmartyFactory.php" role="data"/>
+   <file md5sum="53105706b5fd77c5636e015c8cf7b722" name="lib/sfPhpDecoratorView.php" role="data"/>
+   <file md5sum="2b31625a12c8a9d4b074092a9b994eab" name="lib/exception/sfSmartyConfigurationException.php" role="data"/>
+   <file md5sum="5990a0dee779331cd7ddc9e79801fde5" name="lib/exception/sfSmartyHelperProxyException.php" role="data"/>
+   <file md5sum="d0562187cb3326619849f4aff9ff91f2" name="lib/sfSmartyHelperProxy.php" role="data"/>
+   <file md5sum="1e1114cdcf909c852a92a9cbac4dc73c" name="lib/helper/smarty/Url.class.php" role="data"/>
+   <file md5sum="7e696306db66973e5a32476d1b4bba65" name="lib/sfSmartyPartialView.php" role="data"/>
+   <file md5sum="389ca1f600d412aadb12bdbecab11b24" name="lib/sfSmartyView.php" role="data"/>
+   <file md5sum="36c020171e43793d7e7bc45319a802e5" name="lib/sfSmarty.php" role="data"/>
+   <file md5sum="88f454cec4e6457ab3f4da19c7289c60" name="config/settings.yml" role="data"/>
+   <file md5sum="8aa73257133da3be670b9f450dea3d39" name="config/sfSmarty3PluginConfiguration.class.php" role="data"/>
+   <file md5sum="ea5d46e77aacc3a754ac5eec40245df5" name="config/autoload.yml" role="data"/>
+   <file md5sum="09b4eeab27b9c0f17f970e9e2ec7344e" name="README" role="data"/>
+   <file md5sum="70113d7eb9bc8990c5817e8dcd549c7e" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog/>
+</package>
