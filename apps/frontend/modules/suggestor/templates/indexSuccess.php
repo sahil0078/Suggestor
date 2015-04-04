@@ -11,7 +11,8 @@
         </div>
 <script>
 $('#searchString').keyup(function(e) {
-    clearTimeout($.data(this, 'timer'));
+    $("#results ul").html('');
+	clearTimeout($.data(this, 'timer'));
     if (e.keyCode == 13)
       search(true);
     else
